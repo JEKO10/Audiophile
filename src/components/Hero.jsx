@@ -1,5 +1,5 @@
 import React from "react";
-import Headphone from "../images/image-xx99-mark.png";
+import Headphone from "../images/image-hero.jpg";
 
 function Hero() {
   return (

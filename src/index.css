@@ -42,4 +42,48 @@ nav ul li {
 
 .hero {
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.hero h3 {
+  text-transform: uppercase;
+  color: #808080;
+  letter-spacing: 5px;
+  padding-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  max-width: 500px;
+  line-height: 70px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 500px;
+  padding: 35px 0;
+  color: #808080;
+}
+
+.hero button {
+  background-color: #d77344;
+  padding: 15px 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+  border: none;
+}
+
+.hero button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero img {
+  width: 500px;
 }
