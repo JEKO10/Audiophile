@@ -1,11 +1,11 @@
 import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Recommendation from "./components/Recommendation";
 
 function App() {
   return (
     <main>
       <Header />
-      <Hero />
+      <Recommendation />
     </main>
   );
 }
