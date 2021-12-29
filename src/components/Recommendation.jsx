@@ -6,17 +6,26 @@ import Earphone from "../images/image-yx1-earphones.jpg";
 function Recommendation() {
   return (
     <section className="recommend">
-      <div className="headphones">
+      <div>
         <img src={Headphone} alt="IMG" />
-        <h1>Headphones</h1>
+        <h2>Headphones</h2>
+        <button>
+          <a href="">Shop</a>
+        </button>
       </div>
-      <div className="headphones">
+      <div>
         <img src={Speaker} alt="IMG" />
-        <h1>Speakers</h1>
+        <h2>Speakers</h2>
+        <button>
+          <a href="">Shop</a>
+        </button>
       </div>
-      <div className="headphones">
+      <div>
         <img src={Earphone} alt="IMG" />
-        <h1>Earphones</h1>
+        <h2>Earphones</h2>
+        <button>
+          <a href="">Shop</a>
+        </button>
       </div>
     </section>
   );
