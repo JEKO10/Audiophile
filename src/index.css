@@ -134,3 +134,51 @@ nav ul li {
 .recommend button a:hover {
   color: #d77344;
 }
+
+.collage {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.collage .speaker {
+  background: #d77344 url("./images/pattern-circles.svg") left no-repeat;
+  background-size: 100%;
+  background-position: -15rem -10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  overflow: hidden;
+  padding-top: 120px;
+  border-radius: 10px;
+}
+
+.collage .speaker img {
+  height: 510px;
+  margin-bottom: -1rem;
+}
+
+.collage .speaker h1 {
+  font-size: 4rem;
+  color: #fff;
+  max-width: 500px;
+  line-height: 70px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.collage .speaker p {
+  max-width: 350px;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.collage .speaker button {
+  background-color: #191919;
+  color: #fff;
+  padding: 15px 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+  border: none;
+}

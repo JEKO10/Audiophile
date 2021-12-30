@@ -5,10 +5,12 @@ import Earphone from "../images/image-earphones-yx1.jpg";
 function Collage() {
   return (
     <section className="collage">
-      <div>
+      <div className="speaker">
         <img src={Speaker} alt="IMG" />
         <div>
-          <h1>ZX9 Speaker</h1>
+          <h1>
+            ZX9 <br /> Speaker
+          </h1>
           <p>
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
