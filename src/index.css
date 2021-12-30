@@ -235,3 +235,38 @@ nav ul li:hover {
   background: #191919;
   color: #fff;
 }
+
+.collage .third {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0 150px 0 0;
+}
+
+.collage .third h1 {
+  font-size: 2rem;
+}
+
+.collage .third button {
+  background: none;
+  padding: 15px 30px;
+  margin: 2rem 0;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #252525;
+  transition: all 500ms ease;
+}
+
+.collage .third button:hover {
+  background: #191919;
+  color: #fff;
+}
+
+.collage .third img {
+  border-radius: 10px;
+}
