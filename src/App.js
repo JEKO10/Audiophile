@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Recommendation from "./components/Recommendation";
 import Collage from "./components/Collage";
+import About from "./components/About";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Recommendation />
       <Collage />
+      <About />
     </main>
   );
 }
