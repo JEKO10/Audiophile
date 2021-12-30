@@ -39,6 +39,12 @@ nav ul li {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+nav ul li:hover {
+  color: #d77344;
 }
 
 .active {
@@ -82,6 +88,13 @@ nav ul li {
   text-transform: uppercase;
   font-family: "Manrope", sans-serif;
   border: none;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.hero button:hover {
+  background: none;
+  border: 2px solid #d77344;
 }
 
 .hero button a {
@@ -113,8 +126,9 @@ nav ul li {
 .recommend button {
   background: none;
   border: none;
-  color: gray;
+  color: #808080;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .recommend button::after {
@@ -122,6 +136,7 @@ nav ul li {
   font-size: 1.5rem;
   color: #d77344;
   padding-left: 10px;
+  cursor: pointer;
 }
 
 .recommend button a {
@@ -129,6 +144,7 @@ nav ul li {
   text-decoration: none;
   font-weight: 700;
   transition: all 500ms ease;
+  cursor: pointer;
 }
 
 .recommend button a:hover {
@@ -137,10 +153,10 @@ nav ul li {
 
 .collage {
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 0 auto 5rem auto;
 }
 
-.collage .speaker {
+.collage .first {
   background: #d77344 url("./images/pattern-circles.svg") left no-repeat;
   background-size: 100%;
   background-position: -15rem -10rem;
@@ -152,12 +168,12 @@ nav ul li {
   border-radius: 10px;
 }
 
-.collage .speaker img {
+.collage .first img {
   height: 510px;
   margin-bottom: -1rem;
 }
 
-.collage .speaker h1 {
+.collage .first h1 {
   font-size: 4rem;
   color: #fff;
   max-width: 500px;
@@ -166,13 +182,13 @@ nav ul li {
   letter-spacing: 10px;
 }
 
-.collage .speaker p {
+.collage .first p {
   max-width: 350px;
   padding: 30px 0;
   color: #fff;
 }
 
-.collage .speaker button {
+.collage .first button {
   background-color: #191919;
   color: #fff;
   padding: 15px 30px;
@@ -181,4 +197,41 @@ nav ul li {
   text-transform: uppercase;
   font-family: "Manrope", sans-serif;
   border: none;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.collage .first button:hover {
+  background: none;
+  border: 2px solid #191919;
+}
+
+.collage .second {
+  background: #808080 url("./images/image-speaker-zx7.jpg");
+  padding: 90px;
+  margin: 3rem 0;
+  border-radius: 10px;
+}
+
+.collage .second h1 {
+  font-size: 2rem;
+  padding: 15px 0;
+}
+
+.collage .second button {
+  background: none;
+  padding: 15px 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #252525;
+  transition: all 500ms ease;
+}
+
+.collage .second button:hover {
+  background: #191919;
+  color: #fff;
 }

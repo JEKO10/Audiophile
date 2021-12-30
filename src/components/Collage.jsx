@@ -5,7 +5,7 @@ import Earphone from "../images/image-earphones-yx1.jpg";
 function Collage() {
   return (
     <section className="collage">
-      <div className="speaker">
+      <div className="first">
         <img src={Speaker} alt="IMG" />
         <div>
           <h1>
@@ -18,14 +18,16 @@ function Collage() {
           <button>See Product</button>
         </div>
       </div>
-      <div>
+      <div className="second">
         <h1>ZX7 SPEAKER</h1>
         <button>See Product</button>
       </div>
-      <div>
-        <img src={Earphone} alt="" />
-        <h1>YX1 EARPHONES</h1>
-        <button>See Product</button>
+      <div className="third">
+        <img src={Earphone} alt="IMG" />
+        <div>
+          <h1>YX1 EARPHONES</h1>
+          <button>See Product</button>
+        </div>
       </div>
     </section>
   );
