@@ -5,7 +5,9 @@ function About() {
   return (
     <section className="about">
       <div>
-        <h1>Bringing You The Best Audio Gear</h1>
+        <h1>
+          Bringing You The <span>Best</span> Audio Gear
+        </h1>
         <p>
           Located at the heart of New York City, Audiophile is the premier store
           for high end headphones, earphones, speakers, and audio accessories.
