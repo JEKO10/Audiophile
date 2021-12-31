@@ -5,7 +5,7 @@ import Cart from "../images/cart.svg";
 function Navbar() {
   return (
     <nav>
-      <img src={Logo} alt="LOGO" />
+      <img src={Logo} alt="Logo" />
       <ul>
         <li className="active">Home</li>
         <li>Headphones</li>

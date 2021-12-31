@@ -299,3 +299,8 @@ nav ul li:hover {
 .about img {
   border-radius: 10px;
 }
+
+footer {
+  background: #191919;
+  color: #fff;
+}
