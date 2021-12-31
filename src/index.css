@@ -47,6 +47,10 @@ nav ul li:hover {
   color: #d77344;
 }
 
+nav #cart {
+  cursor: pointer;
+}
+
 .active {
   color: #d77344;
 }
@@ -303,4 +307,60 @@ nav ul li:hover {
 footer {
   background: #191919;
   color: #fff;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+footer img {
+  border-top: 5px solid #d77344;
+  padding-top: 80px;
+}
+
+footer p {
+  max-width: 600px;
+  padding: 35px 0;
+  color: #808080;
+  line-height: 30px;
+}
+
+footer .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+  min-height: 30vh;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+footer ul li {
+  cursor: pointer;
+  padding: 0 10px;
+  transition: all 500ms ease;
+}
+
+footer ul li:hover {
+  color: #d77344;
+}
+
+footer .pages li {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+}
+
+footer .socials li {
+  font-size: 2rem;
 }
