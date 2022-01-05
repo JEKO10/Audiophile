@@ -25,7 +25,9 @@ function Navbar() {
             <Link to="/earphones">Earphones</Link>
           </li>
         </ul>
-        <img src={Cart} alt="IMG" id="cart" />
+        <Link to="/cart">
+          <img src={Cart} alt="IMG" id="cart" />
+        </Link>
       </div>
     </nav>
   );

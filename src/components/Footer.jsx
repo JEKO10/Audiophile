@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../images/logo.svg";
 import { FaFacebookSquare, FaTwitter, FaInstagram } from "react-icons/fa";
 
@@ -18,10 +18,20 @@ function Footer() {
         </div>
         <div className="links">
           <ul className="pages">
-            <li>Home</li>
-            <li>Headphones</li>
-            <li>Speakers</li>
-            <li>Earphones</li>
+            <li>
+              <Link to="/" className="active">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/headphones">Headphones</Link>
+            </li>
+            <li>
+              <Link to="/speakers">Speakers</Link>
+            </li>
+            <li>
+              <Link to="/earphones">Earphones</Link>
+            </li>
           </ul>
           <ul className="socials">
             <li>

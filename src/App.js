@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Headphones from "./pages/Headphones";
 import Speakers from "./pages/Speakers";
 import Earphones from "./pages/Earphones";
+import Cart from "./pages/Cart";
 import Error from "./pages/Error";
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <Route path="/earphones">
           <Earphones />
+        </Route>
+        <Route path="/cart">
+          <Cart />
         </Route>
         <Route path="*">
           <Error />

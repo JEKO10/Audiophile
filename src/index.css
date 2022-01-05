@@ -330,6 +330,10 @@ footer p {
 
 footer a {
   color: #f1f1f1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
 footer .links {
@@ -347,20 +351,17 @@ footer ul {
   list-style-type: none;
 }
 
-footer ul li {
-  cursor: pointer;
+footer ul li a {
   padding: 0 10px;
+  cursor: pointer;
   transition: all 500ms ease;
 }
 
-footer ul li:hover {
+footer ul li a:hover {
   color: #d77344;
 }
 
-footer .pages li {
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 2px;
+footer .pages li a {
   font-size: 0.8rem;
 }
 
