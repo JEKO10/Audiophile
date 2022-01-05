@@ -8,10 +8,26 @@ import Error from "./pages/Error";
 
 function App() {
   return (
-    <main>
+    <Router>
       <Navbar />
-      <Home />
-    </main>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/headphones">
+          <Headphones />
+        </Route>
+        <Route path="/speakers">
+          <Speakers />
+        </Route>
+        <Route path="/earphones">
+          <Earphones />
+        </Route>
+        <Route path="*">
+          <Error />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

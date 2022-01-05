@@ -44,10 +44,15 @@ nav ul li {
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
   transition: all 500ms ease;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
   color: #d77344;
 }
 
