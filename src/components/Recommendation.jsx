@@ -9,23 +9,17 @@ function Recommendation() {
       <div>
         <img src={Headphone} alt="IMG" />
         <h2>Headphones</h2>
-        <button>
-          <a href="">Shop</a>
-        </button>
+        <button>Shop</button>
       </div>
       <div>
         <img src={Speaker} alt="IMG" />
         <h2>Speakers</h2>
-        <button>
-          <a href="">Shop</a>
-        </button>
+        <button>Shop</button>
       </div>
       <div>
         <img src={Earphone} alt="IMG" />
         <h2>Earphones</h2>
-        <button>
-          <a href="">Shop</a>
-        </button>
+        <button>Shop</button>
       </div>
     </section>
   );

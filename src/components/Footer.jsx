@@ -25,13 +25,19 @@ function Footer() {
           </ul>
           <ul className="socials">
             <li>
-              <FaFacebookSquare />
+              <a href="https://www.facebook.com/" target="__blank">
+                <FaFacebookSquare />
+              </a>
             </li>
             <li>
-              <FaTwitter />
+              <a href="https://twitter.com/" target="__blank">
+                <FaTwitter />
+              </a>
             </li>
             <li>
-              <FaInstagram />
+              <a href="https://instagram.com/" target="__blank">
+                <FaInstagram />
+              </a>
             </li>
           </ul>
         </div>

@@ -11,9 +11,7 @@ function Hero() {
           Experience natural, lifelike audio and exceptional build quality made
           for the passionate music enthusiast.
         </p>
-        <button>
-          <a href="">See Product</a>
-        </button>
+        <button>See Product</button>
       </div>
       <img src={Headphone} alt="IMG" />
     </section>
