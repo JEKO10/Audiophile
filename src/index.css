@@ -13,17 +13,21 @@ body {
 
 header {
   background-color: #191919;
-  min-height: 95vh;
+  min-height: 80vh;
 }
 
 nav {
+  background-color: #191919;
+}
+
+nav div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px 0;
   max-width: 1100px;
   margin: 0 auto;
-  border-bottom: 1px solid #252525;
+  border-bottom: 1px solid #474747;
 }
 
 nav ul {
