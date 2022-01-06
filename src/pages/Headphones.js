@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 function Headphones() {
   return (
     <div>
-      <h1 id="titleH">Headphones</h1>
+      <h1 id="title">Headphones</h1>
       <ProductsH />
       <Recommendation />
       <About />
