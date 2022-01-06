@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Speaker from "../images/image-product-speaker.jpg";
 import Headphone from "../images/image-xx99-mark-one.jpg";
-import Earphone from "../images/image-yx1-earphones.jpg";
+import Earphone from "../images/image-yx1-earphones-recommend.jpg";
 
 function Recommendation() {
   return (

@@ -1,10 +1,10 @@
-import Image from "../images/image-yx1-earphones.jpg";
+import Image from "../images/image-yx1-earphones.png";
 
 function ProductsE() {
   return (
     <section className="products">
       <div>
-        <img src={Image} alt="IMG" />
+        <img src={Image} alt="IMG" id="imgEarphone" />
         <div>
           <h3>New Product</h3>
           <h1>
