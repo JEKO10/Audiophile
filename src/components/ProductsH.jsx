@@ -5,7 +5,7 @@ import Third from "../images/image-xx59.jpg";
 
 function ProductsH() {
   return (
-    <section className="productsH">
+    <section className="products">
       <div>
         <img src={First} alt="IMG" />
         <div>
