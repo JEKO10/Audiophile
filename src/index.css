@@ -392,3 +392,12 @@ footer .socials li {
   color: #d77344;
   border: 2px solid #252525;
 }
+
+#titleH {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #191919;
+  padding: 70px 0;
+}
