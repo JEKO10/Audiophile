@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import Logo from "../images/logo.svg";
 import Cart from "../images/cart.svg";
 
@@ -11,18 +11,24 @@ function Navbar() {
         </Link>
         <ul>
           <li>
-            <Link to="/" className="active">
+            <NavLink exact={true} to="/" activeClassName="active">
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/headphones">Headphones</Link>
+            <NavLink to="/headphones" activeClassName="active">
+              Headphones
+            </NavLink>
           </li>
           <li>
-            <Link to="/speakers">Speakers</Link>
+            <NavLink to="/speakers" activeClassName="active">
+              Speakers
+            </NavLink>
           </li>
           <li>
-            <Link to="/earphones">Earphones</Link>
+            <NavLink to="/earphones" activeClassName="active">
+              Earphones
+            </NavLink>
           </li>
         </ul>
         <Link to="/cart">

@@ -10,7 +10,9 @@ function ProductsH() {
         <img src={First} alt="IMG" />
         <div>
           <h3>New Product</h3>
-          <h1>XX99 MARK II Headphones</h1>
+          <h1>
+            XX99 MARK II <br /> Headphones
+          </h1>
           <p>
             The new XX99 Mark II headphones is the pinnacle of pristine audio.
             It redefines your premium headphone experience by reproducing the
@@ -21,7 +23,9 @@ function ProductsH() {
       </div>
       <div>
         <div>
-          <h1>XX99 MARK I Headphones</h1>
+          <h1>
+            XX99 MARK I <br /> Headphones
+          </h1>
           <p>
             As the gold standard for headphones, the classic XX99 Mark I offers
             detailed and accurate audio reproduction for audiophiles, mixing
@@ -34,7 +38,9 @@ function ProductsH() {
       <div>
         <img src={Third} alt="IMG" />
         <div>
-          <h1>XX59 Headphones</h1>
+          <h1>
+            XX59 <br /> Headphones
+          </h1>
           <p>
             Enjoy your audio almost anywhere and customize it to your specific
             tastes with the XX59 headphones. The stylish yet durable versatile

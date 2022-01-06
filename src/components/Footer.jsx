@@ -19,9 +19,7 @@ function Footer() {
         <div className="links">
           <ul className="pages">
             <li>
-              <Link to="/" className="active">
-                Home
-              </Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="/headphones">Headphones</Link>

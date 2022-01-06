@@ -1,6 +1,7 @@
 import Recommendation from "../components/Recommendation";
 import ProductsH from "../components/ProductsH";
 import About from "../components/About";
+import Footer from "../components/Footer";
 
 function Headphones() {
   return (
@@ -9,6 +10,7 @@ function Headphones() {
       <ProductsH />
       <Recommendation />
       <About />
+      <Footer />
     </div>
   );
 }
