@@ -6,6 +6,7 @@ import Speakers from "./pages/Speakers";
 import Earphones from "./pages/Earphones";
 import Cart from "./pages/Cart";
 import Error from "./pages/Error";
+import Xxx99 from "./pages/headphones/Xx99";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
         </Route>
         <Route path="/cart">
           <Cart />
+        </Route>
+        <Route path="/xx99-mark-two-headphones">
+          <Xxx99 />
         </Route>
         <Route path="*">
           <Error />

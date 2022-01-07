@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import First from "../images/image-xx99-mark-two.jpg";
 import Second from "../images/image-xx99-mark-one.jpg";
 import Third from "../images/image-xx59.jpg";
@@ -18,7 +18,9 @@ function ProductsH() {
             It redefines your premium headphone experience by reproducing the
             balanced depth and precision of studio-quality sound.
           </p>
-          <button>See Product</button>
+          <Link to="/xx99-mark-two-headphones">
+            <button>See Product</button>
+          </Link>
         </div>
       </div>
       <div>
