@@ -445,6 +445,10 @@ footer .socials li {
   padding: 20px 0;
 }
 
+.products h4 {
+  margin-bottom: 2rem;
+}
+
 .products button {
   background-color: #d77344;
   color: #f1f1f1;
@@ -459,7 +463,32 @@ footer .socials li {
 }
 
 .products button:hover {
-  background: none;
-  border: 2px solid #d77344;
+  background-color: #ffad87;
   color: #191919;
+}
+
+.products .stock {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.products .stock button:not(#add) {
+  background-color: #e7e7e7;
+  color: #191919;
+  padding: 15px 20px;
+}
+
+.products .stock button:not(#add):hover {
+  background-color: #c5c5c5;
+  color: #d77344;
+}
+
+.products .stock #num {
+  background-color: #dfdfdf;
+  padding: 13px 1rem;
+}
+
+.products .stock #add {
+  margin: 0 1rem;
 }

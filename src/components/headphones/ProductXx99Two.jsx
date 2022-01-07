@@ -16,12 +16,12 @@ function ProductXx99Two() {
               It redefines your premium headphone experience by reproducing the
               balanced depth and precision of studio-quality sound.
             </p>
-            <h2>$ 2,999</h2>
-            <div>
+            <h4>$ 2,999</h4>
+            <div className="stock">
               <button>-</button>
-              <p>1</p>
+              <p id="num">1</p>
               <button>+</button>
-              <button>Add to cart</button>
+              <button id="add">Add to cart</button>
             </div>
           </div>
         </div>
