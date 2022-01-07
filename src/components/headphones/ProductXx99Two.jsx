@@ -1,4 +1,7 @@
 import Image from "../../images/image-xx99-mark-two-single.png";
+import FirstGallery from "../../images/image-gallery-1.jpg";
+import SecondGallery from "../../images/image-gallery-2.jpg";
+import ThirdGallery from "../../images/image-gallery-3.jpg";
 
 function ProductXx99Two() {
   return (
@@ -67,6 +70,13 @@ function ProductXx99Two() {
             </li>
           </ul>
         </div>
+      </section>
+      <section className="gallery">
+        <div>
+          <img src={FirstGallery} alt="IMG" />
+          <img src={SecondGallery} alt="IMG" />
+        </div>
+        <img src={ThirdGallery} alt="IMG" />
       </section>
     </>
   );
