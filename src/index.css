@@ -492,3 +492,42 @@ footer .socials li {
 .products .stock #add {
   margin: 0 1rem;
 }
+
+.features {
+  max-width: 1100px;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.features h1 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.features p {
+  opacity: 0.7;
+  max-width: 650px;
+  padding: 20px 0;
+}
+
+.features .box {
+  padding: 0 120px;
+}
+
+.features .box ul {
+  float: left;
+  list-style-type: none;
+}
+
+.features .box ul li {
+  padding: 5px 0;
+}
+
+.features .box ul li span {
+  color: #d77344;
+  margin: 0 0.5rem;
+  font-weight: 600;
+  opacity: 1;
+}
