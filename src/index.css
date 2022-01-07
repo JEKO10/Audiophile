@@ -553,11 +553,50 @@ footer .socials li {
 }
 
 .alsoLike {
-  margin: 5rem 0;
+  max-width: 1100px;
+  margin: 5rem auto;
+}
+
+.alsoLike > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alsoLike h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2rem;
 }
 
 .alsoLike img {
+  height: 330px;
   background-color: #e7e7e7;
   border-radius: 10px;
   padding: 10px 20px;
+}
+
+.alsoLike h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.alsoLike button {
+  display: block;
+  margin: 0 auto;
+  background-color: #d77344;
+  color: #f1f1f1;
+  padding: 15px 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+  border: none;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.alsoLike button:hover {
+  background-color: #ffad87;
 }

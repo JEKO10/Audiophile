@@ -86,12 +86,18 @@ function ProductXx99Two() {
         <div>
           <div>
             <img src={FirstLike} alt="IMG" />
+            <h2>XX99 MARK I</h2>
+            <button>See Product</button>
           </div>
           <div>
             <img src={SecondLike} alt="IMG" />
+            <h2>YX1 WIRELESS</h2>
+            <button>See Product</button>
           </div>
           <div>
             <img src={ThirdLike} alt="IMG" />
+            <h2>XX59</h2>
+            <button>See Product</button>
           </div>
         </div>
       </section>
