@@ -1,7 +1,10 @@
-import Image from "../../images/image-xx99-mark-two-single.png";
+import Image from "../../images/image-xx99-mark-two.png";
 import FirstGallery from "../../images/image-gallery-1.jpg";
 import SecondGallery from "../../images/image-gallery-2.jpg";
 import ThirdGallery from "../../images/image-gallery-3.jpg";
+import FirstLike from "../../images/image-xx99-mark-one-single.png";
+import SecondLike from "../../images/image-yx1-earphones.png";
+import ThirdLike from "../../images/image-xx59.png";
 
 function ProductXx99Two() {
   return (
@@ -77,6 +80,20 @@ function ProductXx99Two() {
           <img src={SecondGallery} alt="IMG" />
         </div>
         <img src={ThirdGallery} alt="IMG" />
+      </section>
+      <section className="alsoLike">
+        <h1>You May Also Like</h1>
+        <div>
+          <div>
+            <img src={FirstLike} alt="IMG" />
+          </div>
+          <div>
+            <img src={SecondLike} alt="IMG" />
+          </div>
+          <div>
+            <img src={ThirdLike} alt="IMG" />
+          </div>
+        </div>
       </section>
     </>
   );

@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import First from "../images/image-xx99-mark-two.jpg";
-import Second from "../images/image-xx99-mark-one.jpg";
-import Third from "../images/image-xx59.jpg";
+import First from "../images/image-xx99-mark-two.png";
+import Second from "../images/image-xx99-mark-one-single.png";
+import Third from "../images/image-xx59.png";
 
 function ProductsH() {
   return (
     <section className="products">
       <div>
-        <img src={First} alt="IMG" />
+        <img src={First} alt="IMG" id="imgHeadphone" />
         <div>
           <h3>New Product</h3>
           <h1>
@@ -35,10 +35,10 @@ function ProductsH() {
           </p>
           <button>See Product</button>
         </div>
-        <img src={Second} alt="IMG" />
+        <img src={Second} alt="IMG" id="imgHeadphone" />
       </div>
       <div>
-        <img src={Third} alt="IMG" />
+        <img src={Third} alt="IMG" id="imgHeadphone" />
         <div>
           <h1>
             XX59 <br /> Headphones
