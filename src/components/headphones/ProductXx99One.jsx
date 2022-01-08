@@ -2,9 +2,10 @@ import Image from "../../images/image-xx99-mark-one-single.png";
 import FirstGallery from "../../images/image-gallery-1 (1).jpg";
 import SecondGallery from "../../images/image-gallery-2(1).jpg";
 import ThirdGallery from "../../images/image-gallery-3 (1).jpg";
-import FirstLike from "../../images/image-xx99-mark-one-single.png";
+import FirstLike from "../../images/image-xx99-mark-two.png";
 import SecondLike from "../../images/image-yx1-earphones.png";
 import ThirdLike from "../../images/image-xx59.png";
+import { Link } from "react-router-dom";
 
 function ProductXx99One() {
   return (
@@ -17,11 +18,12 @@ function ProductXx99One() {
               XX99 MARK I <br /> Headphones
             </h1>
             <p>
-              The new XX99 Mark II headphones is the pinnacle of pristine audio.
-              It redefines your premium headphone experience by reproducing the
-              balanced depth and precision of studio-quality sound.
+              As the gold standard for headphones, the classic XX99 Mark I
+              offers detailed and accurate audio reproduction for audiophiles,
+              mixing engineers, and music aficionados alike in studios and on
+              the go.
             </p>
-            <h4>$ 2,999</h4>
+            <h4>$ 1,750</h4>
             <div className="stock">
               <button>-</button>
               <p id="num">1</p>
@@ -35,21 +37,20 @@ function ProductXx99One() {
         <div>
           <h1>Features</h1>
           <p>
-            Featuring a genuine leather head strap and premium earcups, these
-            headphones deliver superior comfort for those who like to enjoy
-            endless listening. It includes intuitive controls designed for any
-            situation. Whether you’re taking a business call or just in your own
-            personal space, the auto on/off and pause features ensure that
-            you’ll never miss a beat.
+            As the headphones all others are measured against, the XX99 Mark I
+            demonstrates over five decades of audio expertise, redefining the
+            critical listening experience. This pair of closed-back headphones
+            are made of industrial, aerospace-grade materials to emphasize
+            durability at a relatively light weight of 11 oz.
           </p>
           <p>
-            The advanced Active Noise Cancellation with built-in equalizer allow
-            you to experience your audio world on your terms. It lets you enjoy
-            your audio in peace, but quickly interact with your surroundings
-            when you need to. Combined with Bluetooth 5. 0 compliant
-            connectivity and 17 hour battery life, the XX99 Mark II headphones
-            gives you superior sound, cutting-edge technology, and a modern
-            design aesthetic.
+            From the handcrafted microfiber ear cushions to the robust metal
+            headband with inner damping element, the components work together to
+            deliver comfort and uncompromising sound. Its closed-back design
+            delivers up to 27 dB of passive noise cancellation, reducing
+            resonance by reflecting sound to a dedicated absorber. For
+            connectivity, a specially tuned cable is includes with a balanced
+            gold connector.
           </p>
         </div>
         <div className="box">
@@ -67,9 +68,6 @@ function ProductXx99One() {
             <li>
               <span>1x</span> 3.5mm 5m Audio Cable
             </li>
-            <li>
-              <span>1x</span> Travel Bag
-            </li>
           </ul>
         </div>
       </section>
@@ -85,8 +83,10 @@ function ProductXx99One() {
         <div>
           <div>
             <img src={FirstLike} alt="IMG" />
-            <h2>XX99 MARK I</h2>
-            <button>See Product</button>
+            <h2>XX99 MARK II</h2>
+            <Link to="/xx99-mark-two-headphones">
+              <button>See Product</button>
+            </Link>
           </div>
           <div>
             <img src={SecondLike} alt="IMG" />

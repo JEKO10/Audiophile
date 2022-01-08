@@ -582,6 +582,10 @@ footer .socials li {
   margin: 2rem 0;
 }
 
+.alsoLike a {
+  text-decoration: none;
+}
+
 .alsoLike button {
   display: block;
   margin: 0 auto;
