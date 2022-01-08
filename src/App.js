@@ -6,6 +6,7 @@ import Speakers from "./pages/Speakers";
 import Earphones from "./pages/Earphones";
 import Cart from "./pages/Cart";
 import Error from "./pages/Error";
+import ScrollTop from "./components/ScrollTop";
 import Xx99Two from "./pages/headphones/Xx99Two";
 import Xx99One from "./pages/headphones/Xx99One";
 import Xx59 from "./pages/headphones/Xx59";
@@ -14,6 +15,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <ScrollTop />
       <Switch>
         <Route exact path="/">
           <Home />
