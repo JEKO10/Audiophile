@@ -10,6 +10,7 @@ import ScrollTop from "./components/ScrollTop";
 import Xx99Two from "./pages/headphones/Xx99Two";
 import Xx99One from "./pages/headphones/Xx99One";
 import Xx59 from "./pages/headphones/Xx59";
+import Yx1 from "./pages/earphones/Yx1";
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
         </Route>
         <Route path="/xx59-headphones">
           <Xx59 />
+        </Route>
+        <Route path="/yx1-earphones">
+          <Yx1 />
         </Route>
         <Route path="*">
           <Error />

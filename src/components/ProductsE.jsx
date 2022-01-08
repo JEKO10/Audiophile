@@ -1,4 +1,5 @@
 import Image from "../images/image-yx1-earphones.png";
+import { Link } from "react-router-dom";
 
 function ProductsE() {
   return (
@@ -16,7 +17,9 @@ function ProductsE() {
             even in noisy environments with its active noise cancellation
             feature.
           </p>
-          <button>See Product</button>
+          <Link to="/yx1-earphones">
+            <button>See Product</button>
+          </Link>
         </div>
       </div>
     </section>

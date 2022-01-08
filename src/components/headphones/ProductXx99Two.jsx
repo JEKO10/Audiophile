@@ -95,7 +95,9 @@ function ProductXx99Two() {
           <div>
             <img src={SecondLike} alt="IMG" />
             <h2>YX1 WIRELESS</h2>
-            <button>See Product</button>
+            <Link to="/yx1-earphones">
+              <button>See Product</button>
+            </Link>
           </div>
           <div>
             <img src={ThirdLike} alt="IMG" />
