@@ -5,6 +5,7 @@ import ThirdGallery from "../../images/image-gallery-3.jpg";
 import FirstLike from "../../images/image-xx99-mark-one-single.png";
 import SecondLike from "../../images/image-yx1-earphones.png";
 import ThirdLike from "../../images/image-xx59.png";
+import { Link } from "react-router-dom";
 
 function ProductXx99Two() {
   return (
@@ -87,7 +88,9 @@ function ProductXx99Two() {
           <div>
             <img src={FirstLike} alt="IMG" />
             <h2>XX99 MARK I</h2>
-            <button>See Product</button>
+            <Link to="/xx99-mark-one-headphones">
+              <button>See Product</button>
+            </Link>
           </div>
           <div>
             <img src={SecondLike} alt="IMG" />

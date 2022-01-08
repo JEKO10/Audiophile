@@ -50,7 +50,9 @@ function ProductsH() {
             tastes with the XX59 headphones. The stylish yet durable versatile
             wireless headset is a brilliant companion at home or on the move.
           </p>
-          <button>See Product</button>
+          <Link to="/xx59-headphones">
+            <button>See Product</button>
+          </Link>
         </div>
       </div>
     </section>
