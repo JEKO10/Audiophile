@@ -6,7 +6,8 @@ import Speakers from "./pages/Speakers";
 import Earphones from "./pages/Earphones";
 import Cart from "./pages/Cart";
 import Error from "./pages/Error";
-import Xxx99 from "./pages/headphones/Xx99";
+import Xx99Two from "./pages/headphones/Xx99Two";
+import Xx99One from "./pages/headphones/Xx99One";
 
 function App() {
   return (
@@ -29,7 +30,10 @@ function App() {
           <Cart />
         </Route>
         <Route path="/xx99-mark-two-headphones">
-          <Xxx99 />
+          <Xx99Two />
+        </Route>
+        <Route path="/xx99-mark-one-headphones">
+          <Xx99One />
         </Route>
         <Route path="*">
           <Error />

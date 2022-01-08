@@ -33,7 +33,9 @@ function ProductsH() {
             detailed and accurate audio reproduction for audiophiles, mixing
             engineers, and music aficionados alike in studios and on the go.
           </p>
-          <button>See Product</button>
+          <Link to="/xx99-mark-one-headphones">
+            <button>See Product</button>
+          </Link>
         </div>
         <img src={Second} alt="IMG" id="imgHeadphone" />
       </div>
