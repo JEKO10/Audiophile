@@ -11,6 +11,8 @@ import Xx99Two from "./pages/headphones/Xx99Two";
 import Xx99One from "./pages/headphones/Xx99One";
 import Xx59 from "./pages/headphones/Xx59";
 import Yx1 from "./pages/earphones/Yx1";
+import Zx9 from "./pages/speakers/Zx9";
+import Zx7 from "./pages/speakers/Zx7";
 
 function App() {
   return (
@@ -44,6 +46,12 @@ function App() {
         </Route>
         <Route path="/yx1-earphones">
           <Yx1 />
+        </Route>
+        <Route path="/zx9-speaker">
+          <Zx9 />
+        </Route>
+        <Route path="/zx7-speaker">
+          <Zx7 />
         </Route>
         <Route path="*">
           <Error />
