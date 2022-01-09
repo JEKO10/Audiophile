@@ -604,3 +604,15 @@ footer .socials li {
 .alsoLike button:hover {
   background-color: #ffad87;
 }
+
+#zx9ImgFirst {
+  height: 280px;
+}
+
+#zx9ImgSecond {
+  height: 280px;
+}
+
+#zx9ImgThird {
+  height: 600px;
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import First from "../images/image-zx9.png";
 import Second from "../images/image-zx7.png";
 
@@ -16,7 +16,9 @@ function ProductsS() {
             -- creating new possibilities for more pleasing and practical audio
             setups.
           </p>
-          <button>See Product</button>
+          <Link to="/zx9-speaker">
+            <button>See Product</button>
+          </Link>
         </div>
       </div>
       <div>
@@ -27,7 +29,9 @@ function ProductsS() {
             ZX7 speaker uses high-end audiophile components that represents the
             top of the line powered speakers for home or studio use.
           </p>
-          <button>See Product</button>
+          <Link to="/zx7-speaker">
+            <button>See Product</button>
+          </Link>
         </div>
         <img src={Second} alt="IMG" id="imgSpeaker" />
       </div>
