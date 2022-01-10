@@ -4,7 +4,7 @@ import AboutImg from "../images/image-about.jpg";
 function About() {
   return (
     <section className="about">
-      <div>
+      <div data-aos="fade-right" data-aos-once="true">
         <h1>
           Bringing You The <span>Best</span> Audio Gear
         </h1>
@@ -17,7 +17,7 @@ function About() {
           best place to buy your portable audio equipment.
         </p>
       </div>
-      <img src={AboutImg} alt="IMG" />
+      <img src={AboutImg} alt="IMG" data-aos="fade-left" data-aos-once="true" />
     </section>
   );
 }

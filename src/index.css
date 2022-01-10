@@ -28,6 +28,7 @@ nav div {
   max-width: 1100px;
   margin: 0 auto;
   border-bottom: 1px solid #474747;
+  animation: fade 3s;
 }
 
 nav ul {
@@ -71,6 +72,7 @@ nav #cart {
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
+  animation: fade 3s;
 }
 
 .hero h3 {
@@ -113,6 +115,7 @@ nav #cart {
 
 .hero img {
   width: 500px;
+  animation: fade 5s;
 }
 
 .recommend {
@@ -615,4 +618,13 @@ footer .socials li {
 
 #zx9ImgThird {
   height: 600px;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

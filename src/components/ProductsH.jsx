@@ -7,8 +7,14 @@ function ProductsH() {
   return (
     <section className="products">
       <div>
-        <img src={First} alt="IMG" id="imgHeadphone" />
-        <div>
+        <img
+          src={First}
+          alt="IMG"
+          id="imgHeadphone"
+          data-aos="fade-right"
+          data-aos-once="true"
+        />
+        <div data-aos="fade-left" data-aos-once="true">
           <h3>New Product</h3>
           <h1>
             XX99 MARK II <br /> Headphones
@@ -24,7 +30,7 @@ function ProductsH() {
         </div>
       </div>
       <div>
-        <div>
+        <div data-aos="fade-right" data-aos-once="true">
           <h1>
             XX99 MARK I <br /> Headphones
           </h1>
@@ -37,11 +43,23 @@ function ProductsH() {
             <button>See Product</button>
           </Link>
         </div>
-        <img src={Second} alt="IMG" id="imgHeadphone" />
+        <img
+          src={Second}
+          alt="IMG"
+          id="imgHeadphone"
+          data-aos="fade-left"
+          data-aos-once="true"
+        />
       </div>
       <div>
-        <img src={Third} alt="IMG" id="imgHeadphone" />
-        <div>
+        <img
+          src={Third}
+          alt="IMG"
+          id="imgHeadphone"
+          data-aos="fade-right"
+          data-aos-once="true"
+        />
+        <div data-aos="fade-left" data-aos-once="true">
           <h1>
             XX59 <br /> Headphones
           </h1>

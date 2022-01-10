@@ -1,7 +1,7 @@
 import React from "react";
 
-function Cart() {
+function Checkout() {
   return <section>Cart</section>;
 }
 
-export default Cart;
+export default Checkout;

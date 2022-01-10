@@ -6,8 +6,14 @@ function ProductsS() {
   return (
     <section className="products">
       <div>
-        <img src={First} alt="IMG" id="imgSpeaker" />
-        <div>
+        <img
+          src={First}
+          alt="IMG"
+          id="imgSpeaker"
+          data-aos="fade-right"
+          data-aos-once="true"
+        />
+        <div data-aos="fade-left" data-aos-once="true">
           <h3>New Product</h3>
           <h1>ZX9 Speaker</h1>
           <p>
@@ -22,7 +28,7 @@ function ProductsS() {
         </div>
       </div>
       <div>
-        <div>
+        <div data-aos="fade-right" data-aos-once="true">
           <h1>ZX7 Speaker</h1>
           <p>
             Stream high quality sound wirelessly with minimal to no loss. The
@@ -33,7 +39,13 @@ function ProductsS() {
             <button>See Product</button>
           </Link>
         </div>
-        <img src={Second} alt="IMG" id="imgSpeaker" />
+        <img
+          src={Second}
+          alt="IMG"
+          id="imgSpeaker"
+          data-aos="fade-left"
+          data-aos-once="true"
+        />
       </div>
     </section>
   );

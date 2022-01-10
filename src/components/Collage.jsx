@@ -1,11 +1,11 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import Speaker from "../images/image-speaker-zx9.png";
 import Earphone from "../images/image-earphones-yx1.jpg";
 
 function Collage() {
   return (
     <section className="collage">
-      <div className="first">
+      <div className="first" data-aos="zoom-in" data-aos-once="true">
         <img src={Speaker} alt="IMG" />
         <div>
           <h1>
@@ -15,18 +15,24 @@ function Collage() {
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
           </p>
-          <button>See Product</button>
+          <Link to="/zx9-speaker">
+            <button>See Product</button>
+          </Link>
         </div>
       </div>
-      <div className="second">
+      <div className="second" data-aos="zoom-out" data-aos-once="true">
         <h1>ZX7 SPEAKER</h1>
-        <button>See Product</button>
+        <Link to="/zx7-speaker">
+          <button>See Product</button>
+        </Link>
       </div>
-      <div className="third">
+      <div className="third" data-aos="zoom-in" data-aos-once="true">
         <img src={Earphone} alt="IMG" />
         <div>
           <h1>YX1 EARPHONES</h1>
-          <button>See Product</button>
+          <Link to="/yx1-earphones">
+            <button>See Product</button>
+          </Link>
         </div>
       </div>
     </section>

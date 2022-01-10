@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Headphones from "./pages/Headphones";
 import Speakers from "./pages/Speakers";
 import Earphones from "./pages/Earphones";
-import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
 import Error from "./pages/Error";
 import ScrollTop from "./components/ScrollTop";
 import Xx99Two from "./pages/headphones/Xx99Two";
@@ -13,8 +13,15 @@ import Xx59 from "./pages/headphones/Xx59";
 import Yx1 from "./pages/earphones/Yx1";
 import Zx9 from "./pages/speakers/Zx9";
 import Zx7 from "./pages/speakers/Zx7";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
     <Router>
       <Navbar />
@@ -33,7 +40,7 @@ function App() {
           <Earphones />
         </Route>
         <Route path="/cart">
-          <Cart />
+          <Checkout />
         </Route>
         <Route path="/xx99-mark-two-headphones">
           <Xx99Two />

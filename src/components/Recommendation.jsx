@@ -5,7 +5,7 @@ import Earphone from "../images/image-yx1-earphones-recommend.jpg";
 
 function Recommendation() {
   return (
-    <section className="recommend">
+    <section className="recommend" data-aos="fade-down" data-aos-once="true">
       <div>
         <img src={Headphone} alt="IMG" />
         <h2>Headphones</h2>
