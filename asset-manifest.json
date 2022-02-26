@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Audiophile/static/css/main.aaa6867e.css",
-    "main.js": "/Audiophile/static/js/main.56e4ce15.js",
+    "main.js": "/Audiophile/static/js/main.ef101709.js",
     "static/js/787.cfd8f164.chunk.js": "/Audiophile/static/js/787.cfd8f164.chunk.js",
     "static/media/image-speaker-zx9.png": "/Audiophile/static/media/image-speaker-zx9.153cd899b91a08b22b1a.png",
     "static/media/image-xx99-mark-one-single.png": "/Audiophile/static/media/image-xx99-mark-one-single.cc53aa5b82cc68af7acd.png",
@@ -37,11 +37,11 @@
     "index.html": "/Audiophile/index.html",
     "static/media/pattern-circles.svg": "/Audiophile/static/media/pattern-circles.f4df3610b83b818abbbe.svg",
     "main.aaa6867e.css.map": "/Audiophile/static/css/main.aaa6867e.css.map",
-    "main.56e4ce15.js.map": "/Audiophile/static/js/main.56e4ce15.js.map",
+    "main.ef101709.js.map": "/Audiophile/static/js/main.ef101709.js.map",
     "787.cfd8f164.chunk.js.map": "/Audiophile/static/js/787.cfd8f164.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aaa6867e.css",
-    "static/js/main.56e4ce15.js"
+    "static/js/main.ef101709.js"
   ]
 }
