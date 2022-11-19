@@ -17,7 +17,7 @@ This is a solution to the [Audiophile e-commerce website](https://www.frontendme
 
 ## Project overview
 
-E-commerce website for headphones, speakers and earphones. It displays their products and all the necessary information about them, like name, price, short description, etc. I have not finished the cart logic yet. I look forward to finishing this project.
+E-commerce website for headphones, speakers, and earphones. It displays their products and all the necessary information about them, like name, price, short description, etc. I have not finished the cart logic yet. I look forward to finishing this project.
 
 ## Built with
 
